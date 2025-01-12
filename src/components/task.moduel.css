@@ -1,0 +1,15 @@
+/* google it  */
+
+.title {
+    background-attachment: fixed;
+}
+
+/* how we use it  */
+
+/* import style from "/taskCard.moduel.css";
+
+<span className={style.title}>*/
+
+/* this one is just refrece it wont work  */
+
+/* doesnot make it gobal make it restrict to component only works with only class and id  */

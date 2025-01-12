@@ -1,0 +1,140 @@
+.logo {
+  height: 80px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.task-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.toggle-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: var(--theme-button);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: #0056b3;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-item.completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.task-item.notcompleted {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.task-id {
+  font-weight: bold;
+  color: #555;
+}
+
+.task-name {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.task-status {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #666;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #c82333;
+}
+
+
+.box {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.box.success {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+}
+
+.box.Warning {
+  background-color: #fff3cd;
+  border-left: 5px solid #ffc107;
+}
+
+.box.alert {
+  background-color: #f56e80;
+  border-left: 5px solid #c51212;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
